@@ -3,13 +3,16 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+
+    
 }
-.ava{
-   height: 100vh; 
-   width: 100%;
-   background-image: url(cat5.jpg);
-   background-size: cover;
-   background-position: center;
+.bar{
+
+    height: 100vh; 
+    width: 100%;
+    background-image: url(cat.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -20,6 +23,8 @@ nav{
     padding-top: 45px;
     padding-left: 5%;
     padding-right: 5%;
+
+    
 }
 
 .logo{
@@ -27,10 +32,173 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+    background-color: transparent;
 }
 
-span{
-    color: rgb(26, 148, 185);
+span#blue{
+    color: rgb(24, 182, 230);
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+}
+
+nav ul li a:hover{
+    color: rgb(24, 182, 230);
+}
+
+.btn{
+    padding: 15px;
+    background-color: rgb(24, 182, 230);
+    color: azure;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: rgb(5, 119, 154);
+}
+
+.home{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.home h1{
+    color: azure;
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+.home h4{
+    color: azure;
+    margin: 20px 0px 20px;
+    font-size: 20px;
+}
+
+span#htmllogo{
+    color: rgb(240, 101, 41);
+}
+span#css{
+    color:  rgb(38, 77, 228);
+}
+.home h3{
+    color: azure;
+}
+
+.about{
+    height: 100vh; 
+    width: 100%;
+    background-image: url(cat2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.about header{
+    color: azure;
+    font-size: 60px;
+    text-align: center;
 }
 
 
+
+.about h2{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.about h2 a{
+    color: rgb(179, 26, 18);
+    text-decoration: none;
+}
+.about h2 a#neobis{
+    color: rgb(18, 212, 50);
+    text-decoration: none;
+}
+
+.skills{
+    height: 100vh; 
+    width: 100%;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(cat3.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+
+}
+
+.skills header{
+    color: azure;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.skills h2{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+.skills h2 a#python{
+    color: #4B8BBE;
+    text-decoration: none;
+}
+
+.skills h2 a#node{
+    color: #3c873a;
+    text-decoration: none;
+}
+
+.it{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 15%;
+    padding-right: 5%;
+    color: azure;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 15%;
+    padding-right: 268px;
+    color: azure;
+}
+
+.footer{
+    height: 30vh; 
+    width: 100%;
+    background-color: black;
+    font-size: 30px;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 15%;
+    padding-right: 5%;
+    color: azure;
+
+}

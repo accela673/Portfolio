@@ -1,11 +1,14 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif';
     box-sizing: border-box;
 
     
 }
+
+
+
 .bar{
 
     height: 100vh; 
@@ -27,17 +30,18 @@ nav{
     
 }
 
-.logo{
-    color: azure;
+.bar h2{
     font-size: 35px;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
     cursor: pointer;
     background-color: transparent;
+    color: azure;
 }
 
-span#blue{
-    color: rgb(24, 182, 230);
-}
+
+
+
+
 
 nav ul li{
     list-style: none;
@@ -75,6 +79,7 @@ nav ul li a:hover{
     top: 50%;
     left: 5%;
     transform: translateY(-50%);
+    color: azure;
 }
 
 .home h1{
@@ -82,20 +87,13 @@ nav ul li a:hover{
     margin: 20px 0px 20px;
     font-size: 60px;
 }
-.home h4{
-    color: azure;
-    margin: 20px 0px 20px;
-    font-size: 20px;
-}
+
 
 span#htmllogo{
     color: rgb(240, 101, 41);
 }
 span#css{
     color:  rgb(38, 77, 228);
-}
-.home h3{
-    color: azure;
 }
 
 .about{
@@ -120,7 +118,7 @@ span#css{
     font-size: 20px;
     text-align: center;
     margin-top: 25px;
-
+    
 }
 .about h2 a{
     color: rgb(179, 26, 18);
@@ -137,24 +135,24 @@ span#css{
     background-image:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(images/cat3.jpg);
     background-size: cover;
     background-position: center;
-
     
-
+    
+    
 }
 
 .skills header{
     color: azure;
     font-size: 60px;
     text-align: center;
-
+    
 }
 
 .skills h2{
     color: azure;
     font-size: 20px;
     text-align: center;
-
-
+    
+    
 }
 
 .skills h2 a#python{
@@ -181,16 +179,16 @@ span#css{
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 15%;
-    padding-right: 268px;
+    padding-right: 275px;
     color: azure;
 }
 
 .footer{
-    height: 30vh; 
+    height: 60vh; 
     width: 100%;
     background-color: black;
     font-size: 30px;
-
+    
 }
 
 .footer-content{
@@ -200,5 +198,46 @@ span#css{
     padding-left: 15%;
     padding-right: 5%;
     color: azure;
+    
+}
 
+span#blue{
+    color: rgb(24, 182, 230);
+    
+}
+
+div.anim {
+    height: 10em;
+    position: relative }
+
+.anim h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+#water1{
+    color:  transparent;
+    -webkit-text-stroke: 1px rgb(24, 182, 230);
+}
+
+#water2{
+    color:  rgb(24, 182, 230);
+    animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate 
+{
+    0%,100%
+    {
+        clip-path: polygon(0% 58%, 5% 56%, 9% 51%, 13% 46%, 19% 44%, 25% 43%, 31% 43%, 35% 45%, 39% 46%, 42% 49%, 45% 52%, 49% 54%, 53% 58%, 57% 60%, 63% 63%, 68% 64%, 73% 64%, 78% 64%, 82% 63%, 86% 63%, 89% 61%, 92% 57%, 93% 54%, 96% 52%, 100% 51%, 99% 100%, 0% 99%);
+    }
+    50%
+    {
+        clip-path: polygon(0% 58%, 5% 56%, 11% 59%, 16% 64%, 21% 65%, 27% 64%, 32% 63%, 37% 60%, 41% 58%, 46% 55%, 49% 53%, 52% 52%, 56% 49%, 60% 48%, 65% 46%, 68% 44%, 73% 44%, 77% 44%, 82% 44%, 86% 44%, 89% 46%, 91% 48%, 94% 50%, 97% 52%, 100% 54%, 100% 100%, 0% 99%);    }
 }

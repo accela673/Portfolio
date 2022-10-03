@@ -228,7 +228,7 @@ div.anim {
 
 #water2{
     color:  rgb(24, 182, 230);
-    animation: animate 2s ease-in-out infinite;
+    animation: animate 1s ease-in-out infinite;
 }
 
 @keyframes animate 

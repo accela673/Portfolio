@@ -229,7 +229,7 @@ div.anim {
 
 #water2{
     color:  rgb(24, 182, 230);
-    animation: animate 1s ease-in-out infinite;
+    animation: animate 2s ease-in-out infinite;
 }
 
 @keyframes animate 
@@ -242,7 +242,6 @@ div.anim {
     {
         clip-path: polygon(0% 62%, 9% 60%, 11% 59%, 16% 64%, 21% 65%, 27% 64%, 32% 63%, 37% 60%, 41% 58%, 46% 55%, 49% 53%, 52% 52%, 56% 49%, 60% 48%, 65% 46%, 68% 44%, 73% 44%, 77% 44%, 82% 44%, 86% 44%, 89% 46%, 91% 48%, 94% 50%, 97% 52%, 100% 54%, 100% 100%, 0% 99%);    }
 }
-
 
 
 .clicker{

@@ -207,7 +207,7 @@ span#blue{
 }
 
 div.anim {
-    height: 10em;
+    height: 100%;
     position: relative }
 
 .anim h2 {
@@ -217,7 +217,7 @@ div.anim {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-size: 7.5vw;
     font-family: sans-serif;
 }
 

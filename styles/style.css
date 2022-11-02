@@ -244,11 +244,15 @@ div.anim {
 }
 
 
-#click{
+.click{
     height: 30em;
     font-size: large;
     text-align: center;
     background-color: black;
+}
+.click h1{
+    padding: 10%;
+    color: azure;
 }
 
 .api{
@@ -258,3 +262,7 @@ div.anim {
     background-color: black;
 }
 
+#cat p{
+    color: white;
+    padding: 5%;
+}

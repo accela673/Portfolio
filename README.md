@@ -5,10 +5,6 @@ https://accela673.github.io/Portfolio/
 If link isn't working download ZIP file and open index.html via browser
 
 
-
-Please don't open link via phone cuz it's pretty ugly
-
-
 ![first](https://user-images.githubusercontent.com/101983496/199739376-4ac3d35f-cc57-4ca3-af56-8b89a30f070d.png)
 
 

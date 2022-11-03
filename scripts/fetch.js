@@ -1,22 +1,14 @@
-const img = document.querySelector('.img')
-const btn = document.querySelector('.api button')
+const img = document.getElementById('img')
+const btn = document.getElementById('cat_btn')
 
 
-async function randomCat() {
-    try {
-      const res = await fetch('https://thecatapi.com/');
-      const data = await res.json();
-      img.src = data.url;
-      }
-      catch (e){
-      console.log(e);
-      }
-  }
+btn.addEventListener('click', fetchCatImage);
 
-  btn.addEventListener("click", () => {
-    let isLoaded = img.complete;
 
-    if (isLoaded) {
-        fetchHandler();
-    }
-});
+function fetchCatImage() {
+  fetch('https://aws.random.cat/meow')
+  .then(response => response.json())
+  .then(data => {
+    img.innerHTML = `<img src="${data.file}"/>`;
+  })  
+}

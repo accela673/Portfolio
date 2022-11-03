@@ -256,7 +256,7 @@ div.anim {
 }
 
 .api{
-    height: 30em;
+    height: 20em;
     font-size: large;
     text-align: center;
     background-color: black;
@@ -266,3 +266,13 @@ div.anim {
     color: white;
     padding: 5%;
 }
+
+.video{
+    height: 20em;
+    font-size: large;
+    text-align: center;
+    background-color: black;
+}
+
+
+

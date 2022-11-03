@@ -13,9 +13,6 @@ Please don't open link via phone cuz it's pretty ugly
 
 
 
-![second](https://user-images.githubusercontent.com/101983496/199739390-5d22439a-2ddc-470e-bb46-6611094efc80.png)
-
-
 
 ![third](https://user-images.githubusercontent.com/101983496/199739408-aa354500-7006-4d23-8d7e-266e223261c9.png)
 
